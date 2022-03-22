@@ -231,6 +231,12 @@ aws_sdk_macro!(
     aws_version = "0.8",
 );
 
+aws_sdk_macro!(
+    feature = "aws-sdk-dynamodb+0_8",
+    crate_name = __aws_sdk_dynamodb_0_8,
+    aws_version = "0.9",
+);
+
 rusoto_macro!(
     feature = "rusoto_dynamodb+0_46",
     crate_name = __rusoto_dynamodb_0_46,
