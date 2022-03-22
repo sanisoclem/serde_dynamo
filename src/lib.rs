@@ -232,8 +232,8 @@ aws_sdk_macro!(
 );
 
 aws_sdk_macro!(
-    feature = "aws-sdk-dynamodb+0_8",
-    crate_name = __aws_sdk_dynamodb_0_8,
+    feature = "aws-sdk-dynamodb+0_9",
+    crate_name = __aws_sdk_dynamodb_0_9,
     aws_version = "0.9",
 );
 
