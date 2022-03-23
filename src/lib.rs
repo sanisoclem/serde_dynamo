@@ -114,7 +114,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! serde_dynamo = { version = "3", features = ["aws-sdk-dynamodbstreams+0_8"] }
+//! serde_dynamo = { version = "3", features = ["aws-sdk-dynamodbstreams+0_9"] }
 //! ```
 //!
 //! See [`__aws_sdk_dynamodbstreams_0_8`] for examples and more information.
@@ -245,9 +245,9 @@ aws_sdk_macro!(
 );
 
 aws_sdk_streams_macro!(
-    feature = "aws-sdk-dynamodbstreams+0_8",
-    crate_name = __aws_sdk_dynamodbstreams_0_8,
-    aws_version = "0.8",
+    feature = "aws-sdk-dynamodbstreams+0_9",
+    crate_name = __aws_sdk_dynamodbstreams_0_9,
+    aws_version = "0.9",
 );
 
 rusoto_macro!(
